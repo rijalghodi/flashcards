@@ -2,12 +2,13 @@
 
 ## About
 
-Solved project from the Full-Stack Engineer Path of the codecademy curriculum.
-Technology: React, Redux, React-Redux, Redux Toolkit.
+One of my solved project from the Full-Stack Engineer Path of the [codecademy](codecademy.com/) curriculum.
 
-## Goals
+In this app, user can create flashcards grouped in specific topics. User can make quizzes also to memorize flashcard.
 
-Test the React-Redux and Redux Tool Kit material learned.
+## What I Learn
+
+Implementation of React-Redux and Redux Tool Kit material.
 
 - configure individual slices modules using `createSlice()`; (`@reduxjs/toolkit`)
 - configure a store module wth `configureStore()` and the individual slice modules. (`@reduxjs/toolkit`)
@@ -16,12 +17,14 @@ Test the React-Redux and Redux Tool Kit material learned.
 - with `useDispatch()` dispatch actions to the store to update rendering; (`react-redux`)
 - understand the view => middleware => Action (dispatch) => view Redux workflow
 
-##To Run
+## To Run
 
 Run `npm start` in the project root and the app will be available on port 3000.
+
 Click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
 
-##Route
+## Route
+
 The app's state is totally normalized, with slices for topics, quizzes, and cards.
 Routes
 
@@ -32,7 +35,7 @@ Routes
 - `/quizzes` – index of all quizzes
 - `/quizzes/:quizId` – page for an individual quiz
 
-##To Test
+## To Test
 
 - Create topics
 - Create quizzes
