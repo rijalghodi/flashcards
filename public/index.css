@@ -15,10 +15,9 @@ nav {
 }
 
 nav ul {
-  width: 70%;
+  width: 60%;
   display: flex;
-  justify-content: space-around;
-  width: 100%;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;
