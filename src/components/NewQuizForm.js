@@ -56,8 +56,8 @@ export default function NewQuizForm() {
     <section>
       <h1>Create a new quiz</h1>
       <form onSubmit={handleSubmit}>
-        <input id="quiz-name" value={name} onChange={(e) => setName(e.currentTarget.value)} placeholder="Quiz Title" />
-        <select id="quiz-topic" onChange={(e) => setTopicId(e.currentTarget.value)} placeholder="Topic">
+        <input id="quiz-name" value={name} onChange={(e) => setName(e.currentTarget.value)} placeholder="Quiz Title" required />
+        <select id="quiz-topic" onChange={(e) => setTopicId(e.currentTarget.value)} placeholder="Topic" required>
           <option value="">Topic</option>
           {Object.values(topics).map((topic) => (
             <option key={topic.id} value={topic.id}>
@@ -67,9 +67,9 @@ export default function NewQuizForm() {
         </select>
         {cards.map((card, index) => (
           <div key={index} className="card-front-back">
-            <input id={`card-front-${index}`} value={cards[index].front} onChange={(e) => updateCardState(index, "front", e.currentTarget.value)} placeholder="Front" />
+            <input id={`card-front-${index}`} value={cards[index].front} onChange={(e) => updateCardState(index, "front", e.currentTarget.value)} placeholder="Front" required />
 
-            <input id={`card-back-${index}`} value={cards[index].back} onChange={(e) => updateCardState(index, "back", e.currentTarget.value)} placeholder="Back" />
+            <input id={`card-back-${index}`} value={cards[index].back} onChange={(e) => updateCardState(index, "back", e.currentTarget.value)} placeholder="Back" required />
 
             <button onClick={(e) => removeCard(e, index)} className="remove-card-button">
               Remove Card

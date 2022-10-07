@@ -28,7 +28,7 @@ export default function NewTopicForm() {
       <form onSubmit={handleSubmit}>
         <h1 className="center">Create a new topic</h1>
         <div className="form-section">
-          <input id="topic-name" type="text" value={name} onChange={(e) => setName(e.currentTarget.value)} placeholder="Topic Name" />
+          <input id="topic-name" type="text" value={name} onChange={(e) => setName(e.currentTarget.value)} placeholder="Topic Name" required />
           <select onChange={(e) => setIcon(e.currentTarget.value)} required defaultValue="default">
             <option value="default" disabled hidden>
               Choose an icon
