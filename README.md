@@ -4,7 +4,7 @@
 
 One of my solved project from the Full-Stack Engineer Path of the [codecademy](codecademy.com/) curriculum.
 
-In this app, user can create flashcards grouped in specific topics. User can make quizzes also to memorize flashcard.
+In this app, user can create flashcards grouped in specific topics.
 
 ## What I Learn
 
