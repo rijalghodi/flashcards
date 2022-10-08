@@ -12,6 +12,12 @@ Run `npm start` in the project root and the app will be available on port 3000.
 
 Click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
 
+## To Test
+
+- Create topics
+- Create quizzes
+- Visit the page for an individual quiz and flip the cards over
+
 ## What I Learn
 
 Implementation of React-Redux and Redux Tool Kit material.
@@ -34,9 +40,3 @@ Routes
 - `/new-quiz` – form to create a new quiz
 - `/quizzes` – index of all quizzes
 - `/quizzes/:quizId` – page for an individual quiz
-
-## To Test
-
-- Create topics
-- Create quizzes
-- Visit the page for an individual quiz and flip the cards over
