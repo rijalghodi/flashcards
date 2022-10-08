@@ -6,6 +6,12 @@ One of my solved project from the Full-Stack Engineer Path of the [codecademy](c
 
 In this app, user can create flashcards grouped in specific topics.
 
+## To Run
+
+Run `npm start` in the project root and the app will be available on port 3000.
+
+Click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
+
 ## What I Learn
 
 Implementation of React-Redux and Redux Tool Kit material.
@@ -16,12 +22,6 @@ Implementation of React-Redux and Redux Tool Kit material.
 - create selector's to access the states for manipulation; (`react-redux`)
 - with `useDispatch()` dispatch actions to the store to update rendering; (`react-redux`)
 - understand the view => middleware => Action (dispatch) => view Redux workflow
-
-## To Run
-
-Run `npm start` in the project root and the app will be available on port 3000.
-
-Click [this link](https://rijalghodi-flashcards.netlify.app) to see the project deployment.
 
 ## Route
 
