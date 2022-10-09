@@ -7,11 +7,21 @@ export default function Card({ id }) {
   const card = cards[id];
   const [flipped, setFlipped] = useState(false);
 
+  const handleClick = (e) => {
+    console.log(flipped);
+    if (flipped === false) {
+      e.target.classList.add("flipped-style");
+    } else {
+      e.target.classList.remove("flipped-style");
+    }
+    setFlipped(!flipped);
+  };
+
   return (
     <li>
-      <button className="card" onClick={(e) => setFlipped(!flipped)}>
+      <div className="card" onClick={handleClick}>
         {flipped ? card.back : card.front}
-      </button>
+      </div>
     </li>
   );
 }
